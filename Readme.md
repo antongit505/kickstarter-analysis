@@ -14,7 +14,7 @@ Another challenge was to convert from UNIX timestamp to short date, this was abl
 A pivot table was created using as column 'outcomes', rows 'date created conversion', values 'outcomes' and filters 'years', 'parent category'. By doing this the table was shown with years instead of months, so in the rows section the 'quartiles' and 'years' were dropped in order to get the months visibles in the pivot table.
 A filter was applied to the outcomes just to show 'canceled', 'failed' and 'successful' campaings and then we sorted in descending order. After this, the parent category was filtered to show only 'theater' since we're focusing on this category and finally the results were shown.
 
-![](resources/outcomes_table.PNG)
+![](resources/extra_resources/outcomes_table.PNG)
 > **Table1. Outcomes table for 'theather' category**
 
 Finally a dinamyc graph was displayed consdering in the x-axis the months and in the y-axis the amount of outcomes.
@@ -27,7 +27,7 @@ The table shows that 61% of the campings were succesful vs the 36% that failed. 
 The second task was to analyze the percentage of outcomes for campaings vs the fundraise goal.
 A goal interval was set to summarize the information. The columns for the amount of successful, failed, canceled and total of projects were stablished as well as those of their respective percentages. The countifs() function was used to comply with the following criteria: amount of goal raised, outcome (successful,canceled or failed) and the subcategory 'plays'. After performing the previous operation, the percentages were obtained. The results are shown below.
 
-![](resources/percentages_table.PNG)
+![](resources/extra_resources/percentages_table.PNG)
 > **Table2. Percentages of outcomes based on goals**
 
 Since we want to understand the trend of outcomes based on goals a graph was displayed considering in the x-axis the goal and the y-axis the percentages of outcomes.
@@ -67,14 +67,14 @@ With the graph2 we can have a better understanding of the trends.
 **What are some other possible tables and/or graphs that we could create?**
 * A graph that would help to understand better the graph2 showed early is the Quantity of outcomes based on goals as shown below.
  
-![](resources/qty_outcomes_vs_goals.PNG)
+![](resources/extra_resources/qty_outcomes_vs_goals.PNG)
 
 * A pivot table that shows the most successful countries regarding fundraising campaings.
  
-![](resources/country_vs_outcomes.PNG)
+![](resources/extra_resources/country_vs_outcomes.PNG)
 
 * A table that shows the average donation per country.
 
-![](resources/average_donation_country.PNG)
+![](resources/extra_resources/average_donation_country.PNG)
 
 
